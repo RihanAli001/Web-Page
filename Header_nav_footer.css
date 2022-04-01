@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+}
+
+header{
+    margin: 10px;
+}
+
+header>img{
+    width: 50px;
+    float: left;
+    margin-left: 8%;
+}
+nav{
+    text-align: right;
+    padding-top: 15px;
+    margin-right: 5%;
+}
+
+nav>a{
+    text-decoration: none;
+    padding: 6px;
+    color: gray;
+}
+
+nav>a:hover{
+    color: blue;
+}
+
+main{
+    margin-top: 30px;
+}
+
+main>section{
+    text-align: center;
+    padding: 20px;
+}
+
+main>section>h2{
+    padding: 20px;
+}
+
+.grey{
+    background-color: rgb(216, 202, 202);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.grey>span{
+    text-align: justify;
+    width: 30%;
+    padding-right: 15%;
+}
+
+main>section>span{
+    padding: 3%;
+    width: 20%;
+    display: inline-block;
+}
+main>section>img{
+    width: 15%;
+    padding: 10px;
+    vertical-align: top;
+}
+
+main>section>span>img{
+    width: 100px;
+}
+
+.email{
+    color: white;
+    background-color: lightseagreen;
+    overflow: hidden;
+    text-align: center;
+}
+
+.email-h5{
+    padding: 20px;
+    border: 2px solid white;
+    width: 50%;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.subscribe{
+    background-color: white;
+    padding: 20px;
+    color: lightseagreen;
+    width: 10%;
+    margin-left: 2%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.about{
+    background-color: rgb(236, 231, 231);
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.about>span{
+    width: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about>.line>h5{
+    line-height: 1px;
+}
+
+footer{
+    background-color: black;
+    padding: 15px;
+}
+
+footer>a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+footer>a:hover{
+    color: lightseagreen;
+}
